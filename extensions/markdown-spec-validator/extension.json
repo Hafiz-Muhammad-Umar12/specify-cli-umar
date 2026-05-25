@@ -1,0 +1,6 @@
+{
+  "name": "markdown-spec-validator",
+  "version": "0.1.0",
+  "description": "Validates markdown specifications for Spec Kit workflows",
+  "author": "Muhammad Umar"
+}
