@@ -48,13 +48,11 @@ graph TD
         DAG[DAG Engine] <--> DB[(SQLite State)]
         DAG --> Retrieval[RAG Memory]
     end
-    
     subgraph "Agent Fleet"
         DAG --> Gen[Generator]
         DAG --> Arch[Architect]
         DAG --> Sec[Security]
     end
-    
     subgraph "Execution Layer (TDD)"
         DAG --> Dev[Dev Agent]
         Dev --> Code[Production Code]
