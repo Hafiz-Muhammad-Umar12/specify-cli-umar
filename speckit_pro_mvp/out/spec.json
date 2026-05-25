@@ -1,0 +1,28 @@
+{
+  "title": "Mock Project",
+  "description": "Mock description",
+  "user_stories": [
+    "Story 1"
+  ],
+  "functional_requirements": [
+    "Req 1"
+  ],
+  "system_design": "Microservices",
+  "api_endpoints": [
+    {
+      "name": "Signup",
+      "path": "/signup",
+      "method": "POST",
+      "description": "User signup"
+    }
+  ],
+  "database_schema": "PostgreSQL",
+  "security_model": "OAuth2",
+  "scalability_notes": "Use K8s",
+  "security_requirements": [
+    "Encryption"
+  ],
+  "edge_cases": [
+    "Retry on fail"
+  ]
+}

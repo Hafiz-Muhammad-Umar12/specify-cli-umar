@@ -1,0 +1,18 @@
+{
+  "title": "Mock Project",
+  "description": "A basic mock project generated from: I want a simple task...",
+  "user_stories": [
+    "As a user, I want X so that Y."
+  ],
+  "functional_requirements": [
+    "System must do Z."
+  ],
+  "security_requirements": [
+    "Data must be encrypted at rest.",
+    "Use OAuth2 for auth."
+  ],
+  "edge_cases": [
+    "Handle network timeouts gracefully.",
+    "Handle invalid user input."
+  ]
+}

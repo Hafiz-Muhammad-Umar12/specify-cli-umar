@@ -1,0 +1,22 @@
+[
+  {
+    "id": "TASK-001",
+    "file_path": "models.py",
+    "description": "Define the User model",
+    "dependencies": [],
+    "acceptance_criteria": [
+      "Field 'username' exists"
+    ]
+  },
+  {
+    "id": "TASK-002",
+    "file_path": "api.py",
+    "description": "Create the signup endpoint",
+    "dependencies": [
+      "TASK-001"
+    ],
+    "acceptance_criteria": [
+      "Endpoint /signup returns 201"
+    ]
+  }
+]
